@@ -1,0 +1,2 @@
+// Version numbers for the widget, shared with the app (no CocoaPods settings).
+#include "Generated.xcconfig"

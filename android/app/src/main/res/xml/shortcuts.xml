@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="talk"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/shortcut_talk">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.emirozkunduz.person_of_interest"
+            android:targetClass="com.emirozkunduz.person_of_interest.MainActivity">
+            <extra android:name="poi_action" android:value="talk" />
+        </intent>
+    </shortcut>
+    <shortcut
+        android:shortcutId="number"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/shortcut_number">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.emirozkunduz.person_of_interest"
+            android:targetClass="com.emirozkunduz.person_of_interest.MainActivity">
+            <extra android:name="poi_action" android:value="number" />
+        </intent>
+    </shortcut>
+</shortcuts>
